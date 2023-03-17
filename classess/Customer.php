@@ -186,8 +186,7 @@ $mail->send();
 }catch(Exception $e)
     {echo $e;}
 
-//sms
-$this->SMS($cellnumber, $otp);
+
 // update cutomer otp
 
 $this->updateCustomerOtp($otp,$cmrId);
